@@ -6,9 +6,8 @@ namespace AventOfCode2020
     {
         static void Main(string[] args)
         {
-            var list = Day1.GetnumbersAssignment1();
-            var result = Day1.CalculateNumbers(list);
-            Console.WriteLine($"Totaal resultaat = {result}");
+            //Day1.GetResultAssignment1();
+            Day1.GetResultAssingment2();
         }
     }
 }
