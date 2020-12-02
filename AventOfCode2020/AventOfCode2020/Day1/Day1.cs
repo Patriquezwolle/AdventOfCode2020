@@ -1,11 +1,10 @@
-﻿using AventOfCode2020.Input;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AventOfCode2020
+namespace AdventOfCode2020.Day1
 {
-    class Day1
+    public static  class Day1
     {
        
 
@@ -19,9 +18,9 @@ namespace AventOfCode2020
                     {
                         if (number1 + number2 + number3 == 2020)
                         {
-                            Console.WriteLine($"Nummer1 = {number1}");
-                            Console.WriteLine($"Nummer2 = {number2}");
-                            Console.WriteLine($"Nummer3 = {number3}");
+                            //Console.WriteLine($"Nummer1 = {number1}");
+                            //Console.WriteLine($"Nummer2 = {number2}");
+                            //Console.WriteLine($"Nummer3 = {number3}");
                             var result = number1 * number2 * number3;
                             Console.WriteLine($"Resultaat = {result}");
                             return result;
@@ -42,8 +41,8 @@ namespace AventOfCode2020
                 {
                     if (number1 + number2 == 2020)
                     {
-                        Console.WriteLine($"Nummer1 = {number1}");
-                        Console.WriteLine($"Nummer2 = {number2}");
+                        //Console.WriteLine($"Nummer1 = {number1}");
+                        //Console.WriteLine($"Nummer2 = {number2}");
                         var result = number1 * number2;
                         Console.WriteLine($"Resultaat = {result}");
                         return result;

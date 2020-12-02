@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AventOfCode2020.Input
+namespace AventOfCode2020.Day2
 {
-    class InputDay2
+    public class InputDay2
     {
         public static string GetInput()
         {

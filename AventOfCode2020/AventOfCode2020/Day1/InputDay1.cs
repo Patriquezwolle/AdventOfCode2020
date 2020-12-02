@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AventOfCode2020.Input
+namespace AdventOfCode2020.Day1
 {
     public class InputDay1
     {
