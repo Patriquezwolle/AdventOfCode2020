@@ -6,8 +6,12 @@ namespace AventOfCode2020
     {
         static void Main(string[] args)
         {
-            //Day1.GetResultAssignment1();
+            Day1.GetResultAssignment1();
             Day1.GetResultAssingment2();
+
+            Day2.GetResult();
+            
+
         }
     }
 }
