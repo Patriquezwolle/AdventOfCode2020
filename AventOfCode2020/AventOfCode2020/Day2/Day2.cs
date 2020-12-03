@@ -11,12 +11,12 @@ namespace AdventOfCode2020.Day2
     {
         public static void GetResultCount()
         {
-            var result = GetInvalidPasswordList();
+            var result = GetValidPasswordList();
             Console.WriteLine(result.Count());
             Console.WriteLine("Done");
         }
 
-        private static List<PasswordList> GetInvalidPasswordList()
+        private static List<PasswordList> GetValidPasswordList()
         {
             var fullList = ProcessInput.RegTestLine();
             var result = new List<PasswordList>();

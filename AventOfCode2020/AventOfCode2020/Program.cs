@@ -6,11 +6,12 @@ namespace AdventOfCode2020
     {
         static void Main(string[] args)
         {
-            Day1.Day1.GetResultAssignment1();
-            Day1.Day1.GetResultAssingment2();
+            //Day1.Day1.GetResultAssignment1();
+            //Day1.Day1.GetResultAssingment2();
 
-            Day2.Day2.GetResultCount();
-            Day2.Day2.GetResultPositions();
+            //Day2.Day2.GetResultCount();
+            //Day2.Day2.GetResultPositions();
+            Day3.ProcessInputDay3.GetMap();
 
         }
     }
