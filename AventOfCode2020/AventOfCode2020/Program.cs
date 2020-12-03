@@ -11,7 +11,8 @@ namespace AdventOfCode2020
 
             //Day2.Day2.GetResultCount();
             //Day2.Day2.GetResultPositions();
-            Day3.ProcessInputDay3.GetMap();
+            //Day3.Navigator.Navigate3to1();
+            Day3.Navigator.NavigateRoutes();
 
         }
     }
