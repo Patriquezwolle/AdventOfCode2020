@@ -35,16 +35,18 @@ namespace AdventOfCode2020.Day3
             treesR4 = Navigate(map, 7, 1, sizeY);
             treesR5 = Navigate(map, 1, 2, sizeY);
 
-            var nrTrees1 = treesR1.Count;
-            var nrTrees2 = treesR2.Count;
-            var nrTrees3 = treesR3.Count;
-            var nrTrees4 = treesR4.Count;
-            var nrTrees5 = treesR5.Count;
-            var total = nrTrees1 * nrTrees2 * nrTrees3 * nrTrees4 * nrTrees5;
+            uint nrTrees1 = (uint)treesR1.Count;
+            uint nrTrees2 = (uint)treesR2.Count;
+            uint nrTrees3 = (uint)treesR3.Count;
+            uint nrTrees4 = (uint)treesR4.Count;
+            uint nrTrees5 = (uint)treesR5.Count;
+            uint total = nrTrees1 * nrTrees2 * nrTrees3 * nrTrees4 * nrTrees5;
             Console.WriteLine($"Aantal bomen1 {nrTrees1} \n Aantal bomen2 {nrTrees2} \n Aantal bomen3 {nrTrees3} \n Aantal bomen4 {nrTrees4} \n Aantal bomen5 {nrTrees5}");
             Console.WriteLine($"Totaal aantal bomen is: {total}");
-            //3.424.528.800
+            
+            uint y = 3424528800;
         }
+
 
         public static List<string> Navigate(char[,] map, int horizontalStep, int verticalStep, int sizeY)
         {
