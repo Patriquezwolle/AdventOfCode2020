@@ -25,6 +25,7 @@ namespace AdventOfCode2020.Day4
                 .Count();
             Console.WriteLine(part2);
             var i = 1;
+            //172
 
         }
 
