@@ -44,7 +44,7 @@ namespace AdventOfCode2020.Day3
             Console.WriteLine($"Aantal bomen1 {nrTrees1} \n Aantal bomen2 {nrTrees2} \n Aantal bomen3 {nrTrees3} \n Aantal bomen4 {nrTrees4} \n Aantal bomen5 {nrTrees5}");
             Console.WriteLine($"Totaal aantal bomen is: {total}");
             
-            uint y = 3424528800;
+            //uint y = 3424528800;
         }
 
 
