@@ -14,8 +14,14 @@ namespace AdventOfCode2020
             //Day3.Navigator.Navigate3to1();
             //Day3.Navigator.NavigateRoutes();
             //Day4.ValidatePassport.ValidateAssignment1();
-            Day4.ValidatePassport.ValidateAssignment2();
-            
+            //Day4.ValidatePassport.ValidateAssignment2();
+            //Day5.Controller.GetallSeats();
+            //Day5.voorbeeld.part1();
+            Day6.Controller.GetResultAssignment1();
+            Day6.Controller.GetResultAssignment2();
+            //Day6.Controller.GetResultAssignment12();
+
+
 
         }
     }
