@@ -16,7 +16,7 @@ namespace AdventOfCode2020.Day3
             int sizeY = 323;
             trees = Navigate(map, horizontalStep, verticalStep, sizeY);
             var nrofTrees = trees.Count;
-            Console.WriteLine($" Aantal bomen: {nrofTrees} ");
+            Console.WriteLine($" Day 3, assignment 1 resultaat = {nrofTrees} ");
             //145
         }
 
@@ -41,9 +41,9 @@ namespace AdventOfCode2020.Day3
             uint nrTrees4 = (uint)treesR4.Count;
             uint nrTrees5 = (uint)treesR5.Count;
             uint total = nrTrees1 * nrTrees2 * nrTrees3 * nrTrees4 * nrTrees5;
-            Console.WriteLine($"Aantal bomen1 {nrTrees1} \n Aantal bomen2 {nrTrees2} \n Aantal bomen3 {nrTrees3} \n Aantal bomen4 {nrTrees4} \n Aantal bomen5 {nrTrees5}");
-            Console.WriteLine($"Totaal aantal bomen is: {total}");
-            
+            //Console.WriteLine($"Aantal bomen1 {nrTrees1} \n Aantal bomen2 {nrTrees2} \n Aantal bomen3 {nrTrees3} \n Aantal bomen4 {nrTrees4} \n Aantal bomen5 {nrTrees5}");
+            //Console.WriteLine($"Totaal aantal bomen is: {total}");
+            Console.WriteLine($"Day 3, assignment 2 resultaat = {total}");
             //uint y = 3424528800;
         }
 

@@ -7,7 +7,7 @@ namespace AdventOfCode2020.Day5
     public static class Controller
     {
 
-        public static List<BoardingPassSeat> GetallSeats()
+        public static void GetallSeats()
         {
             var result = new List<BoardingPassSeat>();
             var input = ProcessInputDay5.GetInput();
@@ -23,8 +23,7 @@ namespace AdventOfCode2020.Day5
                 
             }
             var maxId = FindMaxValue(result, x => x.SeatId);
-           // Console.WriteLine($"MaxID = {maxId}");
-            return result;
+            Console.WriteLine($"Day 5, assignment 1 resultaat = {maxId}");
         }
 
 
@@ -61,22 +60,22 @@ namespace AdventOfCode2020.Day5
             return maxValue;
         }
 
-        public static char[,] GetPlaneMap()
-        {
-            var input = GetallSeats();
-
-            var sizeX = 8;
-            var sizeY = 127;
-            var map = new char[sizeX, sizeY];
-            foreach (var row in input)
-            {
-                map[row.Column, row.Row] = "X".ToCharArray()[0];
-            }
-
-           // WriteMap(map);
+        //public static char[,] GetPlaneMap()
+        //{
             
-            return map;
-        }
+
+        //    var sizeX = 8;
+        //    var sizeY = 127;
+        //    var map = new char[sizeX, sizeY];
+        //    foreach (var row in input)
+        //    {
+        //        map[row.Column, row.Row] = "X".ToCharArray()[0];
+        //    }
+
+        //   // WriteMap(map);
+            
+        //    return map;
+        //}
 
         public static void GetEmptySeat()
         {
@@ -84,14 +83,9 @@ namespace AdventOfCode2020.Day5
             var sizeY = 127;
 
             var map = new char[sizeX, sizeY];
-            map = GetPlaneMap();
+            //map = GetPlaneMap();
             var match = "X".ToCharArray()[0];
             var result = new List<BoardingPassSeat>();
-
-
-
-            var i = 1;
-
         }
 
        

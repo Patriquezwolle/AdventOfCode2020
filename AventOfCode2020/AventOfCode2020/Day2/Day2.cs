@@ -11,9 +11,10 @@ namespace AdventOfCode2020.Day2
     {
         public static void GetResultCount()
         {
-            var result = GetValidPasswordList();
-            Console.WriteLine(result.Count());
-            Console.WriteLine("Done");
+            var passWordList = GetValidPasswordList();
+            var result = passWordList.Count();
+            Console.WriteLine($"Day 2, assignment 1 resultaat = {result}");
+            
         }
 
         private static List<PasswordList> GetValidPasswordList()
@@ -42,9 +43,9 @@ namespace AdventOfCode2020.Day2
 
         public static void GetResultPositions()
         {
-            var result = GetInvalidPasswordListPosition();
-            Console.WriteLine(result.Count());
-            Console.WriteLine("Done");
+            var passwordList = GetInvalidPasswordListPosition();
+            var result = passwordList.Count();
+            Console.WriteLine($"Day 2, assigment 2 resultaat = {result}");
         }
 
         private static List<PasswordList>GetInvalidPasswordListPosition()

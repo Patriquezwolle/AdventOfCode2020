@@ -13,8 +13,7 @@ namespace AdventOfCode2020.Day4
         {
             var input = ProcessInputFile.GetPassports();
             var part1 = input.Where(Validations.HasAllElements).Count();
-            Console.WriteLine(part1);
-            var i = 1;
+            Console.WriteLine($"Day 4, assignment 1 resultaat = {part1}");
             //237
         }
 
@@ -23,8 +22,7 @@ namespace AdventOfCode2020.Day4
             var input = ProcessInputFile.GetPassports();
             var part2 = input.Where(Validations.HasAllElements).Where(ValidValues)
                 .Count();
-            Console.WriteLine(part2);
-            var i = 1;
+            Console.WriteLine($" Day 4, assignment 2 resultaat = {part2}");
             //172
 
         }

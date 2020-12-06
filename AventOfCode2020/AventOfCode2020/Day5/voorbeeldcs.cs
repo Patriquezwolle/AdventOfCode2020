@@ -50,7 +50,7 @@ namespace AdventOfCode2020.Day5
                     largestSeatId = seatId;
                 }
             }
-            Console.WriteLine($"Part 1: {largestSeatId}");
+            Console.WriteLine($"Day 5, assingment 1 resultaat =: {largestSeatId}");
             part2();
         }
 
@@ -62,7 +62,7 @@ namespace AdventOfCode2020.Day5
             {
                 if (x != min)
                 {
-                    Console.WriteLine($"Part 2: {min}");
+                    Console.WriteLine($"Day 5 Assingment 2 resultaat = {min}");
                     break;
                 }
                 min++;

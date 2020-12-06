@@ -17,7 +17,7 @@ namespace AdventOfCode2020.Day6
 
             var nrAnswersGroup = Count.CountGroupAnwsers(answersbygroup);
 
-            Console.WriteLine($"Antwoorden per groep {nrAnswersGroup}");
+            Console.WriteLine($"Day 6, assignment 1 resultaat = {nrAnswersGroup}");
         }
 
         public static void GetResultAssignment2()
@@ -27,8 +27,7 @@ namespace AdventOfCode2020.Day6
 
             var answer = Count.CountIndividualGroup(answersIndividual);
 
-            Console.WriteLine($"Antwoord individueel per groep: {answer}");
-            Console.Read();
+            Console.WriteLine($"Day 6, assingment 2 resultaat = {answer}");
         }
     }
 }
